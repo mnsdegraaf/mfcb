@@ -17,9 +17,9 @@ class Mail(object):
     
         self.port = 465  # For SSL
         self.smtp_server = "smtp.gmail.com"
-        self.sender_email = "mfcbsandettie@gmail.com"  # Enter your address
-        #self.receiver_email = "mfcbsandettie@gmail.com"  # Enter receiver address
-        self.password = "mfcb12345"#input("Type your password and press enter: ")
+        self.sender_email = "email@email.com"  # Enter your address
+        #self.receiver_email = "email@email.com"  # Enter receiver address
+        self.password = "***********"#input("Type your password and press enter: ")
         self.context = ssl.create_default_context()
     
     def SendMail(self,message,receiver):
